@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content .page {
+    display: none; /* 기본적으로 페이지를 숨깁니다 */
+}
+
+.content .page.active {
+    display: block; /* 활성화된 페이지만 표시합니다 */
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.page-btn:hover {
+    background-color: #0056b3;
+}
+
+.page-btn.active {
+    background-color: #0056b3;
+    cursor: default;
+}

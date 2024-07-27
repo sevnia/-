@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>페이지네이션 예제</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="content" class="content">
+            <!-- 페이지별 컨텐츠 -->
+            <div class="page" data-page="1"> 
+                <h2>페이지 1</h2>
+                <p>여기는 페이지 1의 컨텐츠입니다.</p>
+            </div>
+            <div class="page" data-page="2"> 
+                <h2>페이지 2</h2>
+                <p>여기는 페이지 2의 컨텐츠입니다.</p>
+            </div>
+            <div class="page" data-page="3"> 
+                <h2>페이지 3</h2>
+                <p>여기는 페이지 3의 컨텐츠입니다.</p>
+            </div>
+            <!-- 추가 페이지가 필요하면 여기에 추가 -->
+        </div>
+
+        <!-- 페이지네이션 -->
+        <div id="pagination" class="pagination">
+            <button class="page-btn" data-page="1">1</button>
+            <button class="page-btn" data-page="2">2</button>
+            <button class="page-btn" data-page="3">3</button>
+            <!-- 추가 페이지 버튼이 필요하면 여기에 추가 -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
